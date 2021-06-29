@@ -1,0 +1,44 @@
+body{
+font-family: 'Merriweather', serif;
+}
+/* nab bar*/
+.navbar{
+    justify-content: space-evenly;
+}
+#navbarDropdown:hover{
+color:#71c0d6;
+}
+#navbarDropdown{
+    font-size: 25px;
+}
+
+    /* button*/
+.btn {background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%)}
+.btn {
+   margin: 5px;
+   padding: 10px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.1s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.card-body{
+    margin-top: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-indent: 50px;
+}
+     
+
