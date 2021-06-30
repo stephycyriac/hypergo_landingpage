@@ -1,7 +1,13 @@
 body{
 font-family: 'Merriweather', serif;
 }
-/* nab bar*/
+
+.container{
+    max-width: 100% ;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+/*------------------------ nab bar--------------------------------------------*/
 .navbar{
     justify-content: space-evenly;
 }
@@ -15,8 +21,8 @@ color:#71c0d6;
     /* button*/
 .btn {background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%)}
 .btn {
-   margin: 5px;
-   padding: 10px 15px;
+    margin: 4px 11px;
+    padding: 11px 25px;
    text-align: center;
    text-transform: uppercase;
    transition: 0.1s;
@@ -24,7 +30,9 @@ color:#71c0d6;
    color: white;            
    box-shadow: 0 0 20px #eee;
    border-radius: 10px;
-   display: block;
+    display: inline-block;
+     width: 155px;
+
  }
 
  .btn:hover {
@@ -32,13 +40,61 @@ color:#71c0d6;
    color: #fff;
    text-decoration: none;
  }
-.card-body{
-    margin-top: 70px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-indent: 50px;
+ /*---------------------------first heading--------------------------*/
+ .hero_description{
+    width:100%;
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+    
+
+    
+ }
+ 
+ .hero_container_image{
+    width:100%;
+    margin-top: 30px;
+    
 }
-     
+.carousel-inner{
+    border-radius: 10px;
+}
+ .hero_text{
+    font-weight:900;
+    font-size: 40px
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) { 
+   
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) { 
+    .hero_text{
+        font-size: 60px;
+    }
+   .illustration_cards{
+    width:100%;
+  
+   } 
+    
+}
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) { 
+    .hero_text{
+        font-size: 40px;
+    }
+    .carousel-item{
+        font-size: 30px;
+    }
+    .hero_description{
+        padding: 180px;
+        font-size: 80px;
+    }
+ }
+
 

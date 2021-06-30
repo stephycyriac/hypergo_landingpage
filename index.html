@@ -21,7 +21,7 @@
 </head>
 <body>
     
-    <div class="container">
+    <main class="container">
         <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;" >
         <div class="container-fluid">
@@ -53,34 +53,85 @@
            
             <div class="d-grid gap-3 d-md-flex justify-content-md-end">
               <button class="btn btn-outline-primary" type="submit">Order Now</button>
-              <button class="btn btn-outline-primary" type="register">Register</button>
+              <button class="btn " type="register">Register</button>
             </div>
           </div>
         </div>
       </nav>
-      <!--first heading-->
-    
-        
-        <div class="card-body">
-          <h1 class="card-title">You select, we collect.</h1>
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+     <!--hero container-->
+     <section class="hero_container d-lg-inline-flex p-2 bd-highlight ">
+         <!--hero transition text-->
+        <div class="hero_description" >
+            <h1 class="hero_text mx-auto">You select, we collect.</h1>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h4> Want Tasty Food?</h4>
+                  </div>
+                  <div class="carousel-item">
+                    <h4> Want Fruits and Vegetables?</h4>
+                  </div>
+                  <div class="carousel-item">
+                    <h4> Want Medicines?</h4>
+                  </div>
+                </div>
+              </div>
+            <button class="btn">Order Now</button>
+        </div>
+
+     <!--hero transition image-->
+     <div class="hero_container_image">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <h4 >Want Tasty Food?</h4>
+                <img src="assests/hypergo/food1.jpg" class="d-block w-100" alt="food">
               </div>
               <div class="carousel-item">
-                <h4>Want Fruits & Vegetables</h4>
+                <img src="./assests/hypergo/fruits and vegetables.jpg" class="d-block w-100" alt="fruits_and_vegetables">
               </div>
               <div class="carousel-item">
-                <h4>Want Medicines</h4>
+                <img src="./assests/hypergo/medicines.jpg" class="d-block w-100" alt="medicines">
               </div>
             </div>
           </div>
-          
-          <button class="btn btn-outline-primary" type="submit">Order Now</button>
         </div>
-      
-    </div>
+    </section>                    
+    <!-- illustration cards-->
+    <section class="illustration_cards">
+        <div class="d-lg-flex justify-content-evenly flex-row bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assests/hypergo/ordering.png" class="card-img-top" alt="ordering">
+                    <div class="card-body">
+                      <p class="card-text">Browse the menu and order
+                        directly from the application</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-2 bd-highlight">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assests/hypergo/order conforming.png" class="card-img-top" alt="conforming">
+                    <div class="card-body">
+                      <p class="card-text">Your order will be immediately
+                        collected and sent by our courier</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="p-2 bd-highlight"><div class="card" style="width: 18rem;">
+                <img src="./assests/hypergo/Delivery.png" class="card-img-top" alt="delivery">
+                <div class="card-body">
+                  <p class="card-text">Pick up delivery at your
+                    door and enjoy
+                    
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+   
+</main>
+
     <!--bootsrap javascript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
