@@ -46,9 +46,7 @@ color:#71c0d6;
     font-size: 50px;
     margin-top: 30px;
     text-align: center;
-    
-
-    
+  
  }
  
  .hero_container_image{
@@ -56,6 +54,8 @@ color:#71c0d6;
     margin-top: 30px;
     
 }
+
+  
 .carousel-inner{
     border-radius: 10px;
 }
@@ -67,7 +67,10 @@ color:#71c0d6;
 /* Small devices (landscape phones, 576px and up)*/
 
 @media (min-width: 576px) { 
-   
+    .illustration_cards_image{
+        width:100%;
+        justify-content: space-evenly;
+       }
  }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -76,11 +79,11 @@ color:#71c0d6;
     .hero_text{
         font-size: 60px;
     }
-   .illustration_cards{
-    width:100%;
-  
-   } 
     
+    .illustration_cards{
+        width:100%;
+        
+       }
 }
 /* Large devices (desktops, 992px and up)*/
 
@@ -95,6 +98,10 @@ color:#71c0d6;
         padding: 180px;
         font-size: 80px;
     }
+    .illustration_cards{
+        width:100%;
+        justify-content: space-evenly;
+       }
  }
 
 
